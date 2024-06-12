@@ -47,16 +47,51 @@ main p{
     font-family: var(--fonte-conteudo);
     padding: 10px 0px;
 }
-main a{
+a{
     color: rgb(143, 143, 142);
 }
-main a:hover{
+a:hover{
     color: rgb(62, 62, 236);
 }
 main img{
     padding: 20px 0px;
     display: block;
     margin: auto;
+}
+aside{
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+aside h2{
+    background-color: var(--cor1);
+    color: black;
+    font-family: var(--fonte-titulo);
+    border-radius: 10px 10px 0px 0px;
+    margin: -10px -10px -10px -10px;
+    padding: 5px;
+    font-size: 1.3em;
+}
+aside p{
+    padding-top: 20px;
+    
+}
+aside ul{
+    columns: 2;
+    list-style-position: inside;
+    padding-top: 20px;
+    font-family: var(--fonte-conteudo);
+}
+footer{
+    background-color: black;
+    color: var(--cor1);
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8em;
+    font-family: var(--fonte-conteudo);
+}
+footer a{
+    text-decoration: none;
 }
 
 
